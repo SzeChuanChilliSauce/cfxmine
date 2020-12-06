@@ -38,7 +38,7 @@ On Linux, run the following command in a shell to build.
 
 ```bash
 git clone https://github.com/SzeChuanChilliSauce/cfxmine.git
-cd cfxmin
+cd cfxmine
 mkdir build && cd build
 cmake -DCMAKE_B_TYPE=Release ..
 make
