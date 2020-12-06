@@ -14,7 +14,6 @@ For detailed mining instructionn, please refer to [Conflux Tethys GPU Mining Ins
     sudo mv cuda-ubuntu1804.pin /etc/apt/preferences.d/cuda-repository-pin-600
     wget https://developer.download.nvidia.com/compute/cuda/11.1.0/local_installers/cuda-repo-ubuntu1804-11-1-local_11.1.0-455.23.05-1_amd64.deb
     sudo dpkg -i cuda-repo-ubuntu1804-11-1-local_11.1.0-455.23.05-1_amd64.deb
-    # 根据上一步提示做如下这步，最后的id（7fa2af80）可能不一致
     sudo apt-key add /var/cuda-repo-ubuntu1804-11-1-local/7fa2af80.pub
     sudo apt-get update
     sudo apt-get -y install cuda
