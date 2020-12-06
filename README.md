@@ -37,7 +37,8 @@ For detailed mining instructionn, please refer to [Conflux Tethys GPU Mining Ins
 On Linux, run the following command in a shell to build.
 
 ```bash
-https://github.com/SzeChuanChilliSauce/cfxmine.git
+git clone https://github.com/SzeChuanChilliSauce/cfxmine.git
+cd cfxmin
 mkdir build && cd build
 cmake -DCMAKE_B_TYPE=Release ..
 make
