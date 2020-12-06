@@ -5,6 +5,8 @@ project(cfxmine CXX CUDA)
 set(THIRDPARTY_SOURCE_DIR ${PROJECT_SOURCE_DIR}/third-party)
 
 set(BOOST_ROOT /usr/local/inlucde/boost)
+set(CUDACXX /usr/local/cuda/bin/nvcc)
+
 include_directories(/usr/local/cuda/include)
 link_directories(/usr/local/cuda/lib64)
 
