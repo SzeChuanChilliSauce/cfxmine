@@ -7,7 +7,7 @@ For detailed mining instructionn, please refer to [Conflux Tethys GPU Mining Ins
 ## 依赖（Dependencies）
 
 ```bash
-1. 安装boost 1.65（不赘述）
+1. 安装boost 1.65.1（不赘述）
 	
 2. 安装cuda（ubuntu 18.04）
     wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin
@@ -22,6 +22,8 @@ For detailed mining instructionn, please refer to [Conflux Tethys GPU Mining Ins
     加入如下语句：
     # 设置BOOST_ROOT变量（boost根目录）
     set(BOOST_ROOT /usr/local/inlucde/boost)
+    # 设置cuda编译器路径
+    set(CUDAXX /usr/local/cuda/bin/nvcc)
     # cuda头文件目录
     include_directories(/usr/local/cuda/include)
     # 链接cuda库目录
